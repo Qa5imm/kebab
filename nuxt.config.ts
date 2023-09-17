@@ -9,10 +9,8 @@ export default defineNuxtConfig({
   ],
   modules: ["@nuxtjs/tailwindcss"],
   css: ["@fortawesome/fontawesome-svg-core/styles.css"],
-  runtimeConfig: {
-    BASE_URL: process.env.BASE_URL,
-  },
   app: {
-    baseURL: '/kebab'
+    baseURL: '/kebab/',
+    buildAssetsDir: 'assets'
   },
 });
