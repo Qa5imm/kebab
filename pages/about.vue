@@ -6,7 +6,7 @@
       <div
         class="rounded-full w-72 h-72 bg-red-400 border-[12px] border-red-500"
       >
-        <img :src="`${config.BASE_URL}/images/file.enc`" alt="" class="rounded-full" />
+        <img :src="`images/file.enc`" alt="" class="rounded-full"/>
       </div>
 
       <div class="basis-1/2">
