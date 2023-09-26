@@ -6,7 +6,7 @@
       </ClientOnly>
     </div>
     <h1 class="font-bold text-xl">{{ title }}</h1>
-    <p class="text-center">
+    <p class="text-center text-[0.9rem]">
       {{ description }}
     </p>
   </div>

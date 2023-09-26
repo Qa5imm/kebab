@@ -7,7 +7,7 @@
         :icon="item.icon"
         :title="item.title"
         :description="item.description"
-        class="basis-3/12 shadow-bbs"
+        class=" shadow-bbs"
       />
     </div>
   </div>
