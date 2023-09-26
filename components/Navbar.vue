@@ -1,6 +1,6 @@
 <template>
   <nav class="flex justify-between items-center my-4">
-    <img :src="`images/bikeChaiye.jpg`" alt="" class="h-24 w-24" />
+    <img :src="`images/bikeChaiye.jpg`" alt="" class="h-24 w-24" loading="lazy" />
     <ul class="flex text-bred-200 gap-x-12 font-bold text-lg">
       <li><nuxt-link to="/">Home</nuxt-link></li>
       <li><nuxt-link to="/#services">Services</nuxt-link></li>

@@ -4,8 +4,9 @@
       :src="`images/default.jpg`"
       alt=""
       class="w-[5rem] h-[5rem] rounded-full absolute top-0"
+      loading="lazy"
     />
-    <div class="bg-bred-200 text-white pt-12 pb-6 px-4 rounded-2xl min-h-52 ">
+    <div class="bg-bred-200 text-white pt-12 pb-6 px-4 rounded-2xl min-h-52">
       <h2 class="font-semibold text-center text-lg">{{ name }}</h2>
       <p class="text-center text-sm">
         {{ description }}
