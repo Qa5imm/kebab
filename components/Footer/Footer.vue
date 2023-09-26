@@ -35,6 +35,7 @@
         <input
           type="text"
           class="border-b-2 border-black w-full bg-inherit outline-0"
+          v-model="email"
         />
       </div>
       <button
@@ -49,8 +50,14 @@
 
 <script setup>
 import { items, socialHandles } from "./FooterData";
+const email = ref(null);
 const onClick = (e) => {
-  e.target.innerText = "Signed up";
-  e.target.disabled = true;
+  const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  if (emailPattern.test(email.value)) {
+    e.target.innerText = "Signed up";
+    e.target.disabled = true;
+  } else {
+    e.target.innerText = "Invalid Email";
+  }
 };
 </script>
