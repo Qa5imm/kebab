@@ -5,20 +5,23 @@
     <div id="contactus">
       <h1 class="tracking-wider font-bold text-xl mb-1">BIKE CHAIYE</h1>
       <ClientOnly>
-        <ul class="flex gap-x-5">
-          <li v-for="name in socialHandles">
-            <font-awesome-icon :icon="`fa-brands fa-${name}`" class="text-xl" />
-          </li>
-        </ul>
+        <div class="flex gap-x-5">
+          <a
+            :href="socialHandle.link"
+            target="_blank"
+            v-for="socialHandle in socialHandles"
+          >
+            <font-awesome-icon
+              :icon="`fa-brands fa-${socialHandle.icon}`"
+              class="text-xl"
+            />
+          </a>
+        </div>
       </ClientOnly>
       <div class="flex flex-col gap-y-3 mt-4">
         <div>
-          <p class="font-bold">Contact us</p>
-          <p>0321-12345678</p>
-        </div>
-        <div>
           <p class="font-bold">Email us</p>
-          <p>bikechaiye@gamil.com</p>
+          <p>bikechaiye@gmail.com</p>
         </div>
       </div>
     </div>

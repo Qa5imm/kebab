@@ -36,5 +36,22 @@ export const items = [
 
 ]
 export const socialHandles = [
-    'square-whatsapp', 'linkedin', 'square-facebook', 'square-instagram'
+    {
+        icon: 'square-whatsapp',
+        link: 'https://wa.me/03224334086'
+
+    }, {
+        icon: 'linkedin',
+        link: 'https://www.linkedin.com/company/bike-chaiye/'
+
+    }, {
+
+        icon: 'square-facebook',
+        link: 'https://www.facebook.com/p/Bike-Chahiye-100083448692468'
+
+    }, {
+        icon: 'square-instagram',
+        link: 'https://www.instagram.com/bikechaiye/'
+
+    }
 ]
