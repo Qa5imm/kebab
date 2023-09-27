@@ -4,7 +4,7 @@
       sectHeader="TESTIMONIALS"
       sectHeadline="Read What Others Have To Say"
     />
-    <div class="flex gap-x-24">
+    <div class="flex gap-x-20">
       <Testimonial
         v-for="item in data"
         :name="item.name"
