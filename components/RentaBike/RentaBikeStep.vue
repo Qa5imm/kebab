@@ -37,6 +37,7 @@ const { img, title, description, last } = defineProps({
 const serviceMd = ` 
     max-md:flex-col 
     max-md:items-center
+    max-md:gap-y-4
 `;
 
 const imgMd = `
@@ -47,7 +48,6 @@ const contentMd = `
 `;
 
 const barMd = `
-  h-0
+  max-md:h-0
 `;
-console.log(imgMd);
 </script>

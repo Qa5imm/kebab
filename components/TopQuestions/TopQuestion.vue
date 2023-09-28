@@ -36,4 +36,10 @@ const dropdownMd = `max-md:w-full`;
 :checked + #menu {
   height: 5rem;
 }
+
+@media screen and (max-width: 768px) {
+  :checked + #menu {
+    height: 8rem;
+  }
+}
 </style>

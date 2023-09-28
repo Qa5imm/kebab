@@ -5,7 +5,7 @@
     </h1>
     <h3
       id="headline"
-      class="text-bgray-400 text-2xl w-auto text-center max-md:text-xl max-sm:lg"
+      class="text-bgray-400 text-2xl w-auto text-center max-md:text-xl max-sm:text-lg"
     >
       Pakistan's First And Only Bike Renting <br />
       Service

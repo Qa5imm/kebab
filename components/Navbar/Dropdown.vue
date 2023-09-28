@@ -16,7 +16,7 @@
         class="flex flex-col text-bred-200 w-32 border px-4 gap-y-2 py-2 rounded-lg bg-bgray-100"
       >
         <li class="text-center w-full hover:opacity-60" v-for="navItem in data">
-          <nuxt-link to="/">{{ navItem }}</nuxt-link>
+          <nuxt-link :to="navItem.href">{{ navItem.name}}</nuxt-link>
         </li>
       </ul>
     </div>

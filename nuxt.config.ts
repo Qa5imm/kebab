@@ -10,7 +10,12 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   css: ["@fortawesome/fontawesome-svg-core/styles.css"],
   app: {
-    baseURL: '/',
-    buildAssetsDir: 'assets'
+    baseURL: "/",
+    buildAssetsDir: "assets",
+    head: {
+      link: [
+        { rel: "icon", type: "image/x-icon", href: "images/bikeChaiye.jpg" },
+      ],
+    },
   },
 });

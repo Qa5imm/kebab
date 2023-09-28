@@ -8,7 +8,7 @@
     />
     <ul class="flex text-bred-200 gap-x-12 font-bold text-lg max-md:hidden">
       <li v-for="navItem in data">
-        <nuxt-link to="/">{{ navItem }}</nuxt-link>
+        <nuxt-link :to="navItem.href">{{ navItem.name }}</nuxt-link>
       </li>
     </ul>
     <Dropdown />
@@ -16,5 +16,6 @@
 </template>
 <script setup>
 import { data } from "./NavbarData";
+console.log(data)
 const config = useRuntimeConfig();
 </script>
