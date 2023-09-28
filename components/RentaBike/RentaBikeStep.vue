@@ -1,6 +1,6 @@
 <template>
-  <div class="flex items-start justify-center gap-x-16">
-    <div id="image" class="w-80 max-h-52 flex justify-center">
+  <div :class="`flex items-start justify-center gap-x-16 ${serviceMd}`">
+    <div id="image" :class="`w-80 max-h-52 flex justify-center ${imgMd}`">
       <img
         :src="`images/${img}`"
         alt=""
@@ -8,12 +8,12 @@
         loading="lazy"
       />
     </div>
-    <div class="flex items-baseline self-auto gap-x-4 w-1/2">
+    <div :class="`flex items-baseline self-auto gap-x-4 w-1/2 ${contentMd}`">
       <div id="divider" class="flex flex-col items-center">
         <div class="h-4 w-4 bg-black"></div>
         <div
           v-if="last !== true"
-          class="h-48 w-0 border-l-2 border-black mt-2"
+          :class="`h-52 w-0 border-l-2 border-black mt-2 ${barMd}`"
         ></div>
       </div>
       <div id="description" class="flex flex-col">
@@ -26,12 +26,28 @@
   </div>
 </template>
 <script setup>
-const config = useRuntimeConfig();
-
 const { img, title, description, last } = defineProps({
   img: String,
   title: String,
   description: String,
   last: Boolean,
 });
+
+// media queries -- max-width
+const serviceMd = ` 
+    max-md:flex-col 
+    max-md:items-center
+`;
+
+const imgMd = `
+  max-md:w-70
+`;
+const contentMd = `
+  max-md:w-full
+`;
+
+const barMd = `
+  h-0
+`;
+console.log(imgMd);
 </script>

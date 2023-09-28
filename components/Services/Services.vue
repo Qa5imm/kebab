@@ -13,7 +13,8 @@
   </div>
 </template>
 <script setup>
+import { maxStringCombiner } from "../utils";
 import { data } from "./ServicesData";
 const servicesMdArray = ["flex-col", "gap-y-12", "items-center"];
-const servicesMd = servicesMdArray.map((item) => `max-md:${item}`).join(" ");
+const servicesMd = maxStringCombiner("md", servicesMdArray);
 </script>
