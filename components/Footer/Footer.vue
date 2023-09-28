@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-bgray-300 flex justify-center justify-around items-baseline py-8"
+    :class="`bg-bgray-300 flex justify-around items-baseline py-8 flex-wrap gap-x-2 ${footerSect}`"
   >
     <div id="contactus">
       <h1 class="tracking-wider font-bold text-xl mb-1">BIKE CHAIYE</h1>
@@ -30,7 +30,7 @@
       :title="item.title"
       :links="item.links"
     />
-    <div class="flex flex-col gap-y-6">
+    <div :class="`flex flex-col gap-y-6 ${signupMd}`">
       <h1 class="font-bold">Stay update on the latest news from us</h1>
       <div>
         <p class="font-medium mb-4">Enter your email address</p>
@@ -63,4 +63,7 @@ const onClick = (e) => {
     e.target.innerText = "Invalid Email";
   }
 };
+// media queries
+const footerSect = `max-md:justify-between max-md:px-6`;
+const signupMd = `max-md:mt-6`;
 </script>

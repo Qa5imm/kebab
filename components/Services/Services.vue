@@ -13,8 +13,12 @@
   </div>
 </template>
 <script setup>
-import { maxStringCombiner } from "../utils";
 import { data } from "./ServicesData";
-const servicesMdArray = ["flex-col", "gap-y-12", "items-center"];
-const servicesMd = maxStringCombiner("md", servicesMdArray);
+
+// media queries
+const servicesMd = `
+max-md:flex-col
+max-md:gap-y-12 
+max-md:items-center
+`;
 </script>
