@@ -6,6 +6,7 @@ import {
   faLock,
   faLaptop,
   faBolt,
+  faBars
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faSquareFacebook,
@@ -24,6 +25,7 @@ library.add(faAngleDown,
   faLock,
   faLaptop,
   faBolt,
+  faBars,
   faSquareFacebook,
   faSquareInstagram,
   faSquareWhatsapp,
