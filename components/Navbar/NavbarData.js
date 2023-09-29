@@ -9,7 +9,7 @@ export const data = [
     },
     {
         name: "Rent Bike",
-        href: "#rentaBike",
+        href: "#rentabike",
     },
     {
         name: "Contact us",
@@ -17,6 +17,6 @@ export const data = [
     },
     {
         name: "About us",
-        href: "#aboutus",
+        href: "/about",
     }
 ]

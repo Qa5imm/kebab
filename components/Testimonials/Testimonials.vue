@@ -4,11 +4,12 @@
       sectHeader="TESTIMONIALS"
       sectHeadline="Read What Others Have To Say"
     />
-    <div :class="`flex gap-x-20 ${testimMd}`">
+    <div :class="`flex gap-x-12 ${testimMd}`">
       <Testimonial
         v-for="item in data"
         :name="item.name"
         :description="item.description"
+        class="basis-1/3"
       />
     </div>
   </div>
@@ -17,8 +18,5 @@
 import { data } from "./TestimonialsData";
 
 // media queries
-const testimMd = `
-max-md:flex-col
-max-md:gap-y-8
-`;
+const testimMd = `max-sm:flex-col max-sm:gap-y-8 max-md:gap-x-6`;
 </script>

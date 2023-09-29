@@ -22,9 +22,9 @@
 <script setup>
 const mediaMd = `
 max-md:w-9/12
-
-
-
+max-sm:w-full
+max-sm:px-2
+max-sm:py-6
 `;
 const { icon, title, description } = defineProps({
   icon: String,

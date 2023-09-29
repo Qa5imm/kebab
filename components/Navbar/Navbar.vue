@@ -16,6 +16,5 @@
 </template>
 <script setup>
 import { data } from "./NavbarData";
-console.log(data)
 const config = useRuntimeConfig();
 </script>

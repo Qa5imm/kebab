@@ -2,7 +2,7 @@
   <div
     class="flex flex-col mb-24 items-center mt-20 gap-y-24 justify-center text-xl text-bgray-400"
   >
-    <div class="w-3/4 flex flex-col gap-y-16">
+    <div class="w-3/4 flex flex-col gap-y-16 max-sm:w-full">
       <div>
         <h1 class="text-black font-bold text-3xl text-center mb-4">
           How it started?
