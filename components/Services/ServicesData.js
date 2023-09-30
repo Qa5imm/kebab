@@ -11,6 +11,6 @@ export const data = [
     }, {
         icon: 'bolt',
         title: 'Charge/Km',
-        description: 'Say Goodbye to Soaring Fares! With BikeChaiye, You Pay as You Go. Rent a Ride and Be Billed Only for the Kilometers You Travel'
+        description: 'Say Goodbye to Soaring Fares! With BikeChaiye, You Pay as You Go. Rent a Ride and Be Billed Only for the Kilometers You Travel.'
     },
 ]

@@ -11,13 +11,13 @@ export const data = [
     },
     {
         query: 'How do we charge our customers',
-        answer: "We charge a base fare of Rs 100 once per ride + 25/km. Note: Min charges of 8 km/Hour are applicable."
+        answer: "Our price is as follows: Base + (Km * Rate ).\n To know the exact rates please, WhatsApp at 03224334086. Note: Min charges of 8 km applies per hour."
 
     },
-    {
-        query: 'Do you provides helmets with bike',
+{
+    query: 'Do you provides helmets with bike',
         answer: 'Please bring your own helmets. Although we have attached helmets with bikes for security clearance only.'
 
-    },
+},
 
 ]

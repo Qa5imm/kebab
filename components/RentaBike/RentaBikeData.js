@@ -2,7 +2,7 @@ export const data = [
     {
         img: "wsSignup.png",
         title: "Signup on Whatsapp",
-        description: "Text \"1\" to on our WhatsApp (03224334086) to get registered, our AI chat bot will walk you  through the resgistration",
+        description: "Text \"1\" to on our WhatsApp (03224334086) to get registered, our AI chat bot will walk you  through the resgistration.",
         last: false,
     },
     {
@@ -20,7 +20,7 @@ export const data = [
     {
         img: "payGen.jpg",
         title: "Payment Generation",
-        description: "Bill will be shared with you shortly after your ride on WhatsApp number. We accept both cash and digital payments.",
+        description: "Bill will be shared with you shortly after your ride on WhatsApp number. Wen accept digital payments only.",
         last: true,
     },
 ]
