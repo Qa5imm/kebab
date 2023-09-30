@@ -2,25 +2,25 @@ export const data = [
     {
         img: "wsSignup.png",
         title: "Signup on Whatsapp",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, nemo. Distinctio nulla delectus itaque similique? Voluptatum soluta laudantium, tenetur id rerum omnis natus doloremque, facilis impedit nostrum non magni sapiente!",
-        last:false,
+        description: "Text \"1\" to on our WhatsApp (03224334086) to get registered, our AI chat bot will walk you  through the resgistration",
+        last: false,
     },
     {
         img: "docVerif.png",
         title: "Documents Verification",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, nemo. Distinctio nulla delectus itaque similique? Voluptatum soluta laudantium, tenetur id rerum omnis natus doloremque, facilis impedit nostrum non magni sapiente!",
-        last:false,
+        description: "Your documents will be verified within 12 hours of your submission after which will be to access our services.",
+        last: false,
     },
     {
         img: "lock.png",
         title: "Unlock Bike",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, nemo. Distinctio nulla delectus itaque similique? Voluptatum soluta laudantium, tenetur id rerum omnis natus doloremque, facilis impedit nostrum non magni sapiente!",
-        last:false,
+        description: "Simply unlock your bike by texting \"Khul ja <bike number>\" on our WhatsApp. Our E-lock system will unlock your ride.",
+        last: false,
     },
     {
         img: "payGen.jpg",
         title: "Payment Generation",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, nemo. Distinctio nulla delectus itaque similique? Voluptatum soluta laudantium, tenetur id rerum omnis natus doloremque, facilis impedit nostrum non magni sapiente!",
-        last:true,
+        description: "Bill will be shared with you shortly after your ride on WhatsApp number. We accept both cash and digital payments.",
+        last: true,
     },
 ]

@@ -1,14 +1,14 @@
 export const data = [
     {
-        name: "Abdul Basit",
-        description:"Lorem ipsum dolor sit amet, hello bye kasparov consectetur adipiscing elit. hello woNunc ullamcorper scelerisque mi, im qas in malesuada felis malesuada vel. "
+        name: "M. Umar Shehzad",
+        description: "I was the first customer of Bike Chaiye and enrolled in their service just to learn to ride a bike. Abdul Basit was really professional in his conduct and I thoroughly enjoyed utilizing Bike Chaiye\'s services. "
     },
     {
-        name: "Umar Amin",
-        description:"Lorem ipsum dolor sit amet, hello bye kasparov consectetur adipiscing elit. hello woNunc ullamcorper scelerisque mi, im qas in malesuada felis malesuada vel. "
+        name: "Ali Kamran",
+        description: "Bike Chaiye started at LUMS when I was in my senior year, I wished it existed before. I along with my friends explore used it bunch of timeus and service was great as always."
     },
     {
-        name: "Babar Azam",
-        description:"Lorem ipsum dolor sit amet, hello bye kasparov consectetur adipiscing elit. hello woNunc ullamcorper scelerisque mi, im qas in malesuada felis malesuada vel. "
+        name: "M. Hayan khawaja",
+        description: "Used BikeChahiye a few times, excellent service and very convenient. Therefore, I would recommend this to anyone who needs affordable rental commute of their own"
     },
 ]

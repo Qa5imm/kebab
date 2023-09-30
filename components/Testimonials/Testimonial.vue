@@ -6,7 +6,7 @@
       class="w-[4.5rem] h-[4.5rem] rounded-full absolute top-0"
       loading="lazy"
     />
-    <div class="bg-bred-200 text-white pt-12 pb-6 px-6 rounded-2xl min-h-52">
+    <div class="bg-bred-200 text-white pt-12 pb-6 px-6 rounded-2xl h-fit">
       <h2 class="font-semibold text-center">{{ name }}</h2>
       <p class="text-center text-sm">
         {{ description }}

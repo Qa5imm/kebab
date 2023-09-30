@@ -1,22 +1,22 @@
-export const data=[
+export const data = [
     {
-        query:'From Where Should I Get The Bike Keys?',
-        answer:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis quaerat dolor culpa obcaecati voluptas, eos nihil neque temporibus, nemo'
+        query: 'Where are bikes located',
+        answer: 'Currently our bikes are located at LUMS parking behind M1.'
 
     },
     {
-        query:'From Where Should I Get The Bike Keys?',
-        answer:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis quaerat dolor culpa obcaecati voluptas, eos nihil neque temporibus, nemo'
+        query: 'From Where Should I Get The Bike Keys',
+        answer: 'Keys are already attached in bike.'
 
     },
     {
-        query:'From Where Should I Get The Bike Keys?',
-        answer:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis quaerat dolor culpa obcaecati voluptas, eos nihil neque temporibus, nemo'
+        query: 'How do we charge our customers',
+        answer: "We charge a base fare of Rs 100 once per ride + 25/km. Note: Min charges of 8 km/Hour are applicable."
 
     },
     {
-        query:'From Where Should I Get The Bike Keys?',
-        answer:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis quaerat dolor culpa obcaecati voluptas, eos nihil neque temporibus, nemo'
+        query: 'Do you provides helmets with bike',
+        answer: 'Please bring your own helmets. Although we have attached helmets with bikes for security clearance only.'
 
     },
 

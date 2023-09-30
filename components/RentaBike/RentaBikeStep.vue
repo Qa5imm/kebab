@@ -1,24 +1,22 @@
 <template>
-  <div :class="`flex items-start justify-center gap-x-16 ${serviceMd}`">
-    <div id="image" :class="`w-80 max-h-52 flex justify-center ${imgMd}`">
-      <img
-        :src="`images/${img}`"
-        alt=""
-        class="object-contain"
-        loading="lazy"
-      />
-    </div>
-    <div :class="`flex items-baseline self-auto gap-x-4 w-1/2 ${contentMd}`">
+  <div :class="`flex items-start justify-center gap-x-24 ${serviceMd}`">
+    <img
+      :src="`images/${img}`"
+      alt=""
+      :class="`object-contain w-60 h-48 flex justify-center ${imgMd}`"
+      loading="lazy"
+    />
+    <div :class="`flex items-baseline gap-x-4 ${contentMd} w-1/3`">
       <div id="divider" class="flex flex-col items-center">
-        <div class="h-4 w-4 bg-black"></div>
+        <div class="h-4 w-4 bg-black mt-0"></div>
         <div
           v-if="last !== true"
-          :class="`h-52 w-0 border-l-2 border-black mt-2 ${barMd}`"
+          :class="`h-48 w-0 border-l-2 border-black  ${barMd}`"
         ></div>
       </div>
       <div id="description" class="flex flex-col">
-        <h2 class="font-bold text-2xl">{{ title }}</h2>
-        <div class="">
+        <h2 :class="`font-bold text-2xl ${titleMd} `">{{ title }}</h2>
+        <div class="w-fit">
           {{ description }}
         </div>
       </div>
@@ -34,20 +32,9 @@ const { img, title, description, last } = defineProps({
 });
 
 // media queries -- max-width
-const serviceMd = ` 
-    max-md:flex-col 
-    max-md:items-center
-    max-md:gap-y-4
-`;
-
-const imgMd = `
-  max-md:w-70
-`;
-const contentMd = `
-  max-md:w-full
-`;
-
-const barMd = `
-  max-md:h-0
-`;
+const serviceMd = `max-md:flex-col  max-md:items-center max-md:gap-y-4`;
+const imgMd = `max-md:w-70`;
+const contentMd = `max-md:w-full`;
+const barMd = `max-md:h-0`;
+const titleMd = ` max-md:text-xl`;
 </script>

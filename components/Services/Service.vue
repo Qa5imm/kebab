@@ -1,6 +1,6 @@
 <template>
   <div
-    :class="`w-1/4 px-6 py-12 flex flex-col items-center gap-y-4 rounded-lg bg-bgray-100 ${mediaMd}`"
+    :class="`w-1/4 px-6 py-8 flex flex-col items-center gap-y-4 rounded-lg bg-bgray-100 ${mediaMd}`"
   >
     <div
       id="icon-circle"
