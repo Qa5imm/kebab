@@ -38,7 +38,7 @@ export const items = [
 export const socialHandles = [
     {
         icon: 'square-whatsapp',
-        link: 'https://wa.me/03224334086'
+        link: 'https://wa.me/+923224334086'
 
     }, {
         icon: 'linkedin',

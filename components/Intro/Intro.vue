@@ -13,7 +13,7 @@
     <a
       id="button"
       class="bg-bred-200 text-white px-4 py-2 rounded-lg font-semibold max-md:px-3"
-      href="https://wa.me/03224334086"
+      href="https://wa.me/+923224334086"
       target="_blank"
       >Try it now</a
     >

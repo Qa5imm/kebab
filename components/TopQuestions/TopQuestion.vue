@@ -11,7 +11,7 @@
     </label>
     <input type="checkbox" :id="inputId" class="hidden" />
 
-    <div id="menu" :class="` w-full bg-bgray-200 rounded-b-lg`">
+    <div id="menu" :class="`w-full bg-bgray-200 rounded-b-lg height-fit`">
       <p class="py-3 px-3 text-start">{{ answer }}</p>
     </div>
   </div>
@@ -28,18 +28,13 @@ const dropdownMd = `max-md:w-full`;
 <style scoped>
 #menu {
   clear: both;
-  height: 0px;
+  max-height: 0px;
   overflow: hidden;
   text-align: center;
-  transition: height 0.4s ease;
+  transition: max-height 0.8s ease;
 }
 :checked + #menu {
-  height: 5rem;
-}
-
-@media screen and (max-width: 400px) {
-  :checked + #menu {
-    height: 8rem;
-  }
+  max-height: fit-content;
+  max-height: 6rem;
 }
 </style>
