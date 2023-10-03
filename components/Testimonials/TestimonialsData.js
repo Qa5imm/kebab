@@ -5,10 +5,10 @@ export const data = [
     },
     {
         name: "Ali Kamran",
-        description: "Bike Chaiye started at LUMS when I was in my senior year, I wished it existed before. I along with my friends explore used it bunch of timeus and service was great as always."
+        description: "Bike Chaiye started at LUMS when I was in my senior year, I wished it existed before. I along with my friends used it bunch of times and service was always great."
     },
     {
         name: "M. Hayan khawaja",
-        description: "Used BikeChahiye a few times, excellent service and very convenient. Therefore, I would recommend this to anyone who needs affordable rental commute of their own"
+        description: "Used BikeChahiye a few times, excellent service and very convenient. Therefore, I would recommend this to anyone who needs affordable rental commute of their own."
     },
 ]

@@ -35,6 +35,6 @@ const dropdownMd = `max-md:w-full`;
 }
 :checked + #menu {
   max-height: fit-content;
-  max-height: 6rem;
+  max-height: 8rem;
 }
 </style>
