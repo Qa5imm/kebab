@@ -5,11 +5,11 @@ export const data = [
     },
     {
         name: "Services",
-        href: "#services",
+        href: "/#services",
     },
     {
         name: "Rent Bike",
-        href: "#rentabike",
+        href: "/#rentabike",
     },
     {
         name: "Contact us",
