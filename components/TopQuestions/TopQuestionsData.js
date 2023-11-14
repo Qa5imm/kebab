@@ -16,7 +16,7 @@ export const data = [
     },
 {
     query: 'Do you provides helmets with bike',
-        answer: 'Please bring your own helmets. Although we have attached helmets with bikes for security clearance only.'
+        answer: 'Helmets provided upon request.'
 
 },
 
