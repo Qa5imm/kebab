@@ -1,7 +1,7 @@
 <template>
   <div id="rentabike" class="flex flex-col justify-center items-center">
     <SectionHeader sectHeader="RENT A BIKE" sectHeadline="How Does It Work" />
-    <div class="flex flex-col items-center">
+    <div class="flex flex-col">
       <RentaBikeStep
         v-for="item in data"
         :img="item.img"
