@@ -20,7 +20,7 @@ export const data = [
     {
         img: "payGen.jpg",
         title: "Payment Generation",
-        description: "Bill will be shared with you shortly after your ride on WhatsApp number. Wen accept digital payments only.",
+        description: "Bill will be shared with you shortly after your ride on WhatsApp number. We accept digital payments only.",
         last: true,
     },
 ]

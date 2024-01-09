@@ -11,13 +11,13 @@ export const data = [
     },
     {
         query: 'How do we charge our customers',
-        answer: "Our price is as follows: Base + (Km * Rate ).\n To know the exact rates please, WhatsApp at 03224334086. Note: Min charges of 8 km applies per hour."
+        answer: "Our price is as follows: Base + (Km * Rate ).\n To know the exact rates, please whatsApp at 03224334086. Note: Min charges of 8 km applies per hour."
 
     },
-{
-    query: 'Do you provides helmets with bike',
-        answer: 'Helmets provided upon request.'
+    {
+        query: 'Do you provides helmets with bike',
+        answer: 'Helmets are provided upon request.'
 
-},
+    },
 
 ]
