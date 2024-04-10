@@ -6,13 +6,18 @@ import {
   faLock,
   faLaptop,
   faBolt,
-  faBars
+  faBars,
+  faLocationDot,
+  faEnvelope,
+  faPhoneVolume,
+  faSquareUpRight
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faSquareFacebook,
   faSquareInstagram,
   faSquareWhatsapp,
   faLinkedin
+  ,
 } from '@fortawesome/free-brands-svg-icons'
 
 
@@ -26,6 +31,10 @@ library.add(faAngleDown,
   faLaptop,
   faBolt,
   faBars,
+  faLocationDot,
+  faEnvelope,
+  faSquareUpRight,
+  faPhoneVolume,
   faSquareFacebook,
   faSquareInstagram,
   faSquareWhatsapp,

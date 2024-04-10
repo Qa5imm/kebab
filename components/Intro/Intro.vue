@@ -7,16 +7,21 @@
       id="headline"
       class="text-bgray-400 text-2xl w-auto text-center max-md:text-xl max-sm:text-lg"
     >
-      Pakistan's First And Only Bike Renting <br />
+      Pakistan's Best Bike Renting <br />
       Service
     </h3>
     <a
       id="button"
-      class="bg-bred-200 text-white px-4 py-2 rounded-lg font-semibold max-md:px-3"
+      class="bg-bred-200 text-white px-4 py-2.5 rounded-lg font-semibold flex gap-x-2 max-md:px-3"
       href="https://wa.me/+923224334086"
       target="_blank"
-      >Try it now</a
-    >
+      >Try it now
+      <ClientOnly>
+        <font-awesome-icon
+          :icon="`fa-solid fa-square-up-right`"
+          class="text-2xl text-white"
+        /> </ClientOnly
+    ></a>
   </div>
 </template>
 <style scoped>

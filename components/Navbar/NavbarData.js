@@ -8,7 +8,7 @@ export const data = [
         href: "/#services",
     },
     {
-        name: "Rent Bike",
+        name: "Renting Procedure",
         href: "/#rentabike",
     },
     {

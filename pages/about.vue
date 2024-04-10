@@ -1,10 +1,10 @@
 <template>
   <div
-    class="flex flex-col mb-24 items-center mt-20 gap-y-24 justify-center text-xl text-bgray-400"
+    class="flex flex-col mb-24 items-center mt-20 gap-y-24 justify-center text-base text-bgray-400 md:text-xl"
   >
-    <div class="w-3/4 flex flex-col gap-y-16 max-sm:w-full">
+    <div class="w-3/4 flex flex-col gap-y-16 max-md:w-full">
       <div>
-        <h1 class="text-black font-bold text-3xl text-center mb-4">
+        <h1 class="text-black font-bold text-2xl text-center mb-4 md:text-3xl">
           How it started?
         </h1>
         <p>
@@ -22,7 +22,7 @@
         </p>
       </div>
       <div>
-        <h1 class="text-black font-bold text-3xl text-center mb-4">
+        <h1 class="text-black font-bold text-2xl text-center mb-4 md:text-3xl">
           The Way Forward
         </h1>
         <p>
