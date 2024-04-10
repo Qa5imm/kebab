@@ -37,7 +37,7 @@
         </ClientOnly>
         <div>
           <p class="font-bold">Address</p>
-          <p>DHA Phase 5, Lahore</p>
+          <p>St 2 Asghar Colony, Gujranwala </p>
         </div>
       </div>
     </div>
